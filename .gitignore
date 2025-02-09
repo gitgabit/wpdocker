@@ -1,0 +1,15 @@
+# Ignorar contenedores y volúmenes
+*.log
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Ignorar imágenes y caché de Docker
+**/node_modules/
+**/.venv/
+__pycache__/
+.dockerignore
+.env
+.env.local
+.env.*.local
+.vscode/
