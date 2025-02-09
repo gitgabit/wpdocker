@@ -251,3 +251,38 @@ Closeup of plantlife in the Malibu Canyon area of the Santa Monica Mountains.
 Free public domain CC0 image.
 malibu-plantlife.webp
 https://www.rawpixel.com/image/8799918
+
+
+
+
+1ara vez:
+docker-compose down -v
+
+
+luego:
+docker-compose start
+docker-compose stop
+
+
+tailwindcss -v --help
+
+
+
+docker-compose stop   # Solo detiene los contenedores (NO borra datos)
+docker-compose start  # Los vuelve a arrancar
+
+docker-compose down   # Baja los contenedores (mantiene volúmenes)
+docker-compose up -d  # Los sube nuevamente con los mismos datos
+
+
+
+
+-------------------------
+admin:
+2G7n#J8%asFgtZQ%Gn
+
+yUL2L%6JsaMo6F8SFA
+-------------------------
+
+permisos:
+sudo chmod -R 777 ~/Documentos/PROYECTOS_GIT/mi_proyecto_wordpress/wp-data
